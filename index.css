@@ -99,7 +99,7 @@ body {
 
 #heading {
   color: rgb(0, 0, 0);
-  font-size: 210px;
+  font-size: 210px;	
   font-family: "Dosis", Arial, Helvetica, sans-serif;
   font-weight: 500;
   margin-top: 15%;
@@ -111,7 +111,7 @@ body {
   overflow: hidden;
   position: absolute;
   z-index: 2;
-  margin-left: 6%;
+  margin-left: 15%;
   text-align: center;
 }
 
@@ -193,8 +193,8 @@ body {
 .output {
   float: right;
   border: 1px solid white;
-  width: 450px;
-  height: 693px;
+  width: 650px;
+  height: 800px;
   margin-top: -383px;
   margin-right: 38px;
   background-color: rgb(255, 255, 255);
@@ -216,4 +216,25 @@ body {
 
 h6 {
   text-align: center;
+}
+h3 {
+  color:#36e4f7;
+  text-align: center;
+  margin-top: -30px;
+}
+
+h3 a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid #36e4f7;
+  /* ^- the important bit. RGB 192,192,192 is the same as #C0C0C0*/
+
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  -ms-transition: border 500ms ease;
+  -o-transition: border 500ms ease;
+  transition: border 500ms ease;
+}
+h3 a:hover {
+  border-bottom: 2px solid white;
 }
